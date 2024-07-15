@@ -7,29 +7,7 @@ type TarefaState = {
 }
 
 const initialState: TarefaState = {
-  itens: [
-    {
-      id: 1,
-      descricao: 'estudar js',
-      prioridade: enums.Prioridade.NORMAL,
-      status: enums.Status.CONCLUIDA,
-      titulo: 'estudar java'
-    },
-    {
-      id: 2,
-      descricao: 'estudar python',
-      prioridade: enums.Prioridade.URGENTE,
-      status: enums.Status.CONCLUIDA,
-      titulo: 'estudar python'
-    },
-    {
-      id: 3,
-      descricao: 'estudar c#',
-      prioridade: enums.Prioridade.IMPORTATE,
-      status: enums.Status.PENDENTE,
-      titulo: 'estudar c#'
-    }
-  ]
+  itens: []
 }
 
 const tarefasSlice = createSlice({
